@@ -1,0 +1,78 @@
+/* GENERAL STYLES */
+body {
+  font-size:22px;
+}
+
+#tagline {
+  background-color: gray;
+  outline-color: yellow;
+  text-align: center;
+}
+
+.showcase {
+  background-image: url("/images/coworking.jpg");
+  background-color: red;
+ 
+}
+
+.floater {
+  float: right;
+
+}
+
+/* HEADER STYLES */
+header {
+  background-color: black;
+  overflow: hidden;
+  padding: 20px;
+  margin: px;
+}
+
+header h1 {
+  float: left;
+  color: yellow;
+  font-size: 40px;
+}
+
+header nav {
+  float: right;  
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+}
+/*SECTION STYLES*/
+#capabilities {
+  float: left;
+  width: px;
+
+}
+
+section h2 {
+  font-size: 40px;
+}
+
+section h3 {
+  font-size: 30px;
+}
+
+section article div {
+  text-align: right;
+  margin: 35px 0 15px 0;
+}
+
+section article a {
+  text-decoration: none;
+  color: #darkblue;
+}
+
+.about p, .about a {
+
+}
+footer {
+  clear: both;
+  text-align: center;
+
+}
