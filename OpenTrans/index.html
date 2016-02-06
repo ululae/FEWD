@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+	<!-- external Font link at Google -->
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+  <!-- external CSS link -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div id="o-wrapper" class="o-wrapper">
+
+<header class="o-header">
+<nav class="o-header-nav">
+       <a href="#home"><h1>This is a new site</h1></a>
+  
+  <div class="hamburger" align=right>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+       <div class="social-header">
+       <a href="http://www.linkedin.com/"><img src="img/linkedin.png" alt="linkedin"></a>
+              <a href="http://www.github.com/"><img src="img/github.png" alt="github"></a>
+              <a href="http://www.instagram.com/"><img src="img/instagram.png" alt="instagram"></a>
+              <a href="mailto:test@gmail.com"><img src="img/email.png" alt="email"></a>
+        </div>
+  </nav>
+</header>
+
+<!-- Button to control menu -->
+  <main class="o-content">
+    <div class="o-container">
+      
+      <div class="c-buttons">
+        <button id="c-button--slide-top" class="c-button">Slide Top</button>
+      </div>
+  <div id="github-icons"></div>
+
+    </div><!-- /o-container -->
+  </main><!-- /o-content -->
+	
+
+
+<div class="main-body">
+
+	<h1>THIS IS A NEW SITE</h1>
+	<h2>Here is a subheading</h2>
+  <br>
+  <h2>TMX Generator</h2>
+  <p>This is a browser based TMX Generator that allows you to create a TMX by inputting as many source and target translation pairs.</p>
+  <br>
+  <p>Select the source and target language codes</p>
+  <form id="tmxGenerator">
+        Source Language: <select id="SourceL">
+                <option value="en-us">en-US</option>
+                <option value="en-uk">en-UK</option>
+                <option value="zh-cn">zh-CN</option>
+                <option value="es-la">es-LA</option>
+        </select>
+        Target Language: <select id="TargetL">
+                <option value="en-us">en-US</option>
+                <option value="en-uk">en-UK</option>
+                <option value="zh-cn">zh-CN</option>
+                <option value="es-la">es-LA</option>
+        </select>
+        <button id="createHeader">Create Header</button>
+
+  <p>Enter source text and target translation</p>
+  Source Text: <input type="text" id="sourceText"><br>
+  Translation: <input type="text" id="translation">
+       <button id="add">Add!</button><button id="reset">Reset</button><br><br>
+            <textarea id="results" placeholder="Code for TMX will appear here. This area is also editable."></textarea>
+  <p>All set? Go ahead and generate your new TMX file!</p> <button id="generate">TMX this!</button> or <button id="googleDoc">Send to GoogleDocs</button>
+
+  </form>
+</div>
+
+    <footer class="o-footer">
+    <div class="o-container">
+      <small>&copy; 2016, victoria lee</small>
+    </div>
+  </footer><!-- /o-footer -->
+</div><!-- /o-wrapper -->
+
+<nav id="c-menu--slide-top" class="c-menu c-menu--slide-top">
+  <button class="c-menu__close">  <div class="close-bar" align=right>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div></button>
+  <ul class="c-menu__items">
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Home</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Projects</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Contacts</a></li>
+  </ul>
+
+</nav><!-- /c-menu slide-top -->
+
+<div id="c-mask" class="c-mask"></div><!-- /c-mask -->
+
+<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+	
+
+<!-- menus script -->
+<script src="js/dist/menu.js"></script>
+
+
+
+<script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+
+<script src="js/main.js"></script>
+	
+  
+
+</body>
+</html>

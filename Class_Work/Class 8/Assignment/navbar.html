@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nav</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<style>
+		.line{
+		  width: 3em;
+		  height: .3em;
+		  background: #f9e42e;
+		  border-radius: 1em;
+		  margin-top: .25em;
+		}
+		#nav-icon-wrapper {
+			height: 32px;
+		}
+		#nav-icon {
+			float: right;
+			cursor: pointer;
+		}
+		@media (max-width: 1024px) {
+			nav ul {
+				display: none;
+			}
+			nav ul li {
+				width: 100%;
+				border: 1px solid red;
+				list-style-type: none;
+				padding: 10px;
+				text-align: center;
+			}
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<div id="nav-icon-wrapper">
+			<div id="nav-icon">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+		</div>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Blog</a></li>
+		</ul>
+	</nav>
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script>
+	function toggleNav()
+	{
+		// Toggle the nav
+		$("nav ul").slideToggle();
+	}
+	// Set up the click event
+	$("#nav-icon").click(toggleNav);
+	</script>
+</body>
+</html>

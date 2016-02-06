@@ -1,0 +1,108 @@
+function runWhenPageLoads()
+	
+
+
+$(document).ready(function (){
+	
+});
+
+
+
+
+// Errors and what they mean:
+
+Unexpected Token:
+wasn'texpecting the piece of code it saw...
+usually beause you're missing something right before it
+(hint: check the previous line)
+
+
+LOOPS:
+
+while (  // this thing is true, i.e. if statemenst// )
+{
+	
+
+
+}
+
+var x = 1;
+while ( x < 10)
+{
+	console.log(x);
+	x++; // x = x + 1
+
+}
+
+
+In-class work:
+
+
+
+// for(var i = 1; i<=20; i++)
+// {
+//     console.log(i);
+    
+//     if (i % 2 == 0) {
+//         console.log('this is even! ' + i);
+//     }
+    
+//     else {
+        
+//         console.log('this is odd! ' + i);
+// }}
+
+
+for(var i = 0; i<=10; i++)
+{
+    for (var j= 1; j<=10; j++){
+    var result = i*j;
+    console.log(i + " * " + j + " = " + result);
+    
+  
+
+}}
+
+
+// Test every multipler from 1 through 10
+
+
+
+
+
+
+// assignGrade(108);
+
+// function assignGrade(value) 
+// {
+//     if (value >= 90){
+//         return("A")}
+       
+//     else if (value >= 80){
+//         return("B")}
+        
+//     else if (value >= 70){
+//         return("C")}
+        
+//     else if (value >= 60){
+//         return("D")}
+        
+//     else if (value < 60){
+//         return("F")}
+// }
+
+// for(var g = 60; g<=100; g++) {
+//     assignGrade(g);
+//     var grade = assignGrade(g);
+    
+//     console.log(g + " is a grade of " + grade);
+    
+    
+// }
+
+Arrays:
+
+
+
+
+

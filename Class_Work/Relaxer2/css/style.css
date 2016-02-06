@@ -1,0 +1,113 @@
+/* GENERAL STYLES */
+body {
+  font-size:22px;
+}
+#container {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #f0efef;
+}
+
+/* HEADER STYLES */
+header {
+  background-color: #033048;
+  overflow: hidden;
+  padding: 35px;
+  margin:10px;
+}
+
+header h1 {
+  float: left;
+  color: white;
+  font-size: 40px;
+}
+
+header nav {
+  float: right;
+  
+}
+
+header nav a {
+  color: #f9e42e;
+  text-decoration: none;
+  margin-left: 25px;
+}
+/*SECTION STYLES*/
+section {
+  float: left;
+  width: 700px;
+
+}
+
+section h2 {
+  font-size: 40px;
+}
+
+section article div {
+  text-align: right;
+  margin: 35px 0 15px 0;
+}
+
+section article a {
+  text-decoration: none;
+  color: #darkblue;
+}
+/*ASIDE STYLES*/
+aside {
+  float: right;
+  width: 240px;
+  height: 100px;
+  background-color: green;
+}
+
+aside h3 {
+  font-size: 32px;
+}
+
+aside ul {
+  font-size: 24px;
+}
+
+aside div {
+  margin-bottom: 25px;
+}
+
+.about p, .about a {
+
+}
+footer {
+  clear: both;
+  text-align: center;
+
+}
+footer .signup {
+  background-color: #f9e42e;
+  padding: 15px;
+}
+footer .signup button {
+  color: white;
+  background-color: rgb(32, 49, 65);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  font-size: 22px;
+}
+footer .footer {
+
+background-color: #121212;
+padding-top: 30px;
+}
+
+footer .footer h1 {
+  color: #f9e42e ;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.footer img {
+  margin-left: 20px;
+}
+
+footer .footer p {
+  color: white;
+}

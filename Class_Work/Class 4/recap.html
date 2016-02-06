@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			nav {
+				position: fixed;
+				top: 0;
+				left: 0;
+				background: red;
+				width: 100%;
+			}
+
+			nav a {
+				color: white;
+				text-decoration: none;
+			}
+			nav ul {
+				list-style-type: none;
+			}
+			nav > ul > li {
+				display: inline-block;
+				margin: 10px;
+				vertical-align: top;
+				/*border: 1px solid black;*/
+			}
+			nav ul ul {
+				display: none;
+				position: fixed;
+				background-color: red;
+				padding: 20px;
+			}
+			nav > ul > li:hover ul {
+				display: block;
+			}
+			p {
+				/*visibility: hidden;*/
+				/*display: none;*/
+			}
+			.box {
+				background: blue;
+				width: 200px;
+				height: 200px;
+				position: relative;
+			}
+			.close-button {
+				background: green;
+				width: 20px;
+				position: absolute;
+				top: -10px;
+				right: -10px;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Blog</a>
+					<ul>
+						<li><a href="#">Post #1</a></li>
+						<li><a href="#">Post #2</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ducimus ipsum excepturi, velit quisquam non odit doloremque animi ab, esse perferendis atque similique. Sit dicta maiores, velit fugit, illum hic.</p>
+		<h1>This goes under the paragraph</h1>
+		<div class="box">
+			<div class="close-button">X</div>
+		</div>
+		<!-- <ul>
+			<li>Thing 1</li>
+			<li>Thing 2</li>
+			<li>Thing 3</li>
+		</ul> -->
+	</body>
+</html>
